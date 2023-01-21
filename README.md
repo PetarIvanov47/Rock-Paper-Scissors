@@ -1,2 +1,3 @@
 # Rock-Paper-Scissors
-Practical Project
+Practical Project for SoftUni Fundamentals!
+
