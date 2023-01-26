@@ -6,4 +6,7 @@ Small console game Rock-Paper-Scissors vs the computer.
 # Update 1.1:
 2 from 3 mode added.
 
+# Update 1.2:
+Bugs in menu fixed.
+
 

@@ -7,10 +7,20 @@ player_two = "Computer"
 choices = ["rock", "paper", "scissors"]
 print("Do you wanna play?")
 answer = input()
-if answer == "no":
-    print("Ok, bye!")
-    exit()
-print("OK, let's play.")
+
+while True:
+    if answer == "no":
+        print("Ok, bye!")
+        exit()
+    elif answer == "yes":
+        print("OK, let's play.")
+        break
+
+    else:
+        print("Incorrect answer!")
+        print("You have to answer with 'yes' or 'no'.")
+        answer = input()
+
 print("Please select game mode.")
 game_mode = input("Enter '1' for first to win or enter '2' for first to two wins from three games.")
 
