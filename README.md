@@ -9,4 +9,6 @@ Small console game Rock-Paper-Scissors vs the computer.
 # Update 1.2:
 Bugs in menu fixed.
 
+Try in Replit:
 
+https://replit.com/@PeturIvanov1/Rock-Paper-Scissors
