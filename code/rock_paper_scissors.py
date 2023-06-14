@@ -1,7 +1,7 @@
 import random
 
 # menu
-player_one = input("Enter your name:")
+player_one = input("Enter your name:").title()
 print(f"Hello {player_one}!")
 player_two = "Computer"
 choices = ["rock", "paper", "scissors"]
@@ -30,7 +30,7 @@ if game_mode == "1":
     print("Start!")
     flag = False
     while True:
-        player_one_choice = input()
+        player_one_choice = input("Choose between [rock, paper, scissors]: ")
         computer_choice = random.choice(choices)
 
         if player_one_choice == "rock" and computer_choice == "paper":
@@ -87,7 +87,7 @@ elif game_mode == "2":
     counter_player_one = 0
     counter_player_two = 0
     while counter_player_one < 2 and counter_player_two < 2:
-        player_one_choice = input()
+        player_one_choice = input("Choose between [rock, paper, scissors]: ")
         computer_choice = random.choice(choices)
 
         if player_one_choice == "rock" and computer_choice == "paper":
